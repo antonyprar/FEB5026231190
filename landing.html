@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SetaraKerja - Kerja Tanpa Batas Bagi Disabilitas</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f7fc;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .logo span {
+            color: #3366ff;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            color: #fff;
+            background-color: #3366ff; /* Changed for visual differentiation */
+        }
+        .hero h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .hero span {
+            color: #fff;
+        }
+        .hero input, .hero button {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        .hero input {
+            width: 250px;
+        }
+        .hero button {
+            background: white;
+            color: #3366ff;
+            cursor: pointer;
+        }
+        .jobs, .donate, .articles {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .job-list, .article-list {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .job, .article {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            flex: 1 1 250px; /* Adjusted for responsiveness */
+        }
+        .donate {
+            background: #3366ff;
+            color: white;
+            padding: 50px 20px;
+        }
+        .donate button {
+            background: white;
+            color: #3366ff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: white;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <img src="https://ibb.co.com/TBX3MTHm" alt="Setara Kerja Logo"
+                class="logo"> <!-- Placeholder for logo URL -->
+            <nav>
+                <ul>
+                    <li><a href="#lowongan">Lowongan</a></li>
+                    <li><a href="#donasi">Donasi</a></li>
+                    <li><a href="#artikel">Artikel</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Kerja <span>Tanpa Batas</span> Bagi
+                <span>Disabilitas</span></h1>
+            <input type="text"
+                placeholder="Cari pekerjaan, lokasi, kategori...">
+            <button>Cari</button>
+        </section>
+
+        <section id="lowongan" class="jobs">
+            <h2>Lowongan untuk Anda</h2>
+            <div class="job-list">
+                <div class="job">
+                    <h3>Truebill</h3>
+                    <p>Perusahaan manajemen keuangan...</p>
+                    <span>Full-Time | Marketing</span>
+                </div>
+                <div class="job">
+                    <h3>Sanofi</h3>
+                    <p>Perusahaan di bidang kesehatan...</p>
+                    <span>Full-Time | Kesehatan</span>
+                </div>
+                <div class="job">
+                    <h3>Draken</h3>
+                    <p>Perusahaan informasi dan teknologi...</p>
+                    <span>Full-Time | Teknologi</span>
+                </div>
+                <div class="job">
+                    <h3>Webflow</h3>
+                    <p>Platform pengembangan situs web...</p>
+                    <span>Full-Time | Teknologi</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="donasi" class="donate">
+            <h2>Bersama, kita bisa membuat perubahan!</h2>
+            <p>Setiap donasi membantu menciptakan dampak nyata.</p>
+            <button>Donasi Sekarang</button>
+        </section>
+
+        <section id="artikel" class="articles">
+            <h2>Artikel untuk Anda</h2>
+            <div class="article-list">
+                <div class="article">
+                    <h3>Sulit Cari Kerja, Pilihan Disabilitas Terbatas</h3>
+                    <p>Meningkatkan skill dalam bidang tertentu...</p>
+                </div>
+                <div class="article">
+                    <h3>Apa itu disabilitas? Kenali jenis dan...</h3>
+                    <p>Penyandang disabilitas adalah setiap orang...</p>
+                </div>
+            </div>
+        </section>
+
+        <footer id="about">
+            <p>2024 @ SetaraKerja. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
