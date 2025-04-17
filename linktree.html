@@ -20,20 +20,25 @@
             href="https://assets.production.linktr.ee/profiles/_next/static/logo-assets/favicon.ico">
     </head>
 
-    <body>
-        <div class="navbar">
+    <body class="position-relative">
+        <div class="navbar position-fixed w-100 align-items-center" id="navbar">
             <div class="navbar-left">
-                <button class="circle-btn"
-                    style="width: 40px; height: 40px; margin-top: 15px;"
+                <button
+                    class="circle-btn text-white d-flex align-items-center justify-content-center notification-btn mt-4"
+                    id="circlesubscribebutton"
+                    style="width: 40; height: 40px; margin-top: 15px;"
                     data-bs-toggle="modal"
                     data-bs-target="#subscribeModal">
                     <i class="fa-regular fa-bell"></i>
+                    <span class="notification-badge ms-2"
+                        id="subscribetext">Subscribe</span>
                 </button>
             </div>
             <div class="navbar-center">
             </div>
             <div class="navbar-right">
-                <button class="circle-btn"
+                <button
+                    class="circle-btn text-white d-flex align-items-center justify-content-center mt-4"
                     style="width: 40px; height: 40px; margin-top: 15px;"
                     data-bs-toggle="modal"
                     data-bs-target="#shareModal">
@@ -51,63 +56,82 @@
             </div>
         </div>
 
-        <div class=" mx-auto profile-container">
+        <div class="mx-auto profile-container">
             <div class="d-flex flex-column align-items-center mt-5 pt-4">
                 <img
                     src="https://ugc.production.linktr.ee/0LCftquCTiuH3l4hatFZ_ade4be54a27f38359fdf60c24d7182bfe?io=true&size=avatar-v3_0"
                     alt="Konami_Ai Profile Picture" class="profile-img">
-                <h1 class="username">@Konami_Ai</h1>
+                <h1 class="username text-center">@Konami_Ai</h1>
             </div>
 
-            <div class="links-container">
-                <h3 class="section-title">YouTube Channels</h3>
+            <div class="links-container px-3">
+                <h3 class="section-title text-center">YouTube Channels</h3>
 
                 <a href="http://youtube.com/konami_ai" target="_blank"
-                    class="link-btn pt-4 pb-3">
+                    class="link-btn text-white position-relative d-block text-center">
                     Main Channel
+                    <i
+                        class="fas fa-ellipsis-v customicons position-absolute"></i>
                 </a>
 
                 <a href="https://www.youtube.com/aipop" target="_blank"
-                    class="link-btn pt-4 pb-3">
+                    class="link-btn text-white position-relative d-block text-center">
                     Ai-Pop!
+                    <i
+                        class="fas fa-ellipsis-v customicons position-absolute"></i>
                 </a>
 
                 <a
                     href="https://www.youtube.com/channel/UCJCPv2dzbya3c6UrJbfoZkA"
-                    target="_blank" class="link-btn pt-4 pb-3">
+                    target="_blank"
+                    class="link-btn text-white position-relative d-block text-center">
                     Konami Ai Adventures!
+                    <i
+                        class="fas fa-ellipsis-v customicons position-absolute"></i>
                 </a>
 
                 <a href="https://bit.ly/3DT3miG" target="_blank"
-                    class="link-btn pt-4 pb-3">
+                    class="link-btn text-white position-relative d-block text-center">
                     Kawaii K.O.
+                    <i
+                        class="fas fa-ellipsis-v customicons position-absolute"></i>
                 </a>
 
-                <h3 class="section-title">English Sites</h3>
+                <h3 class="section-title english text-center">English Sites</h3>
 
                 <a href="http://Twitch.tv/konami_ai" target="_blank"
-                    class="link-btn pt-4 pb-3">
+                    class="link-btn text-white position-relative d-block text-center">
                     Twitch
+                    <i
+                        class="fas fa-ellipsis-v customicons position-absolute"></i>
                 </a>
 
                 <a href="https://www.tiktok.com/@konami_ai" target="_blank"
-                    class="link-btn pt-4 pb-3">
+                    class="link-btn text-white position-relative d-block text-center">
                     TikTok
+                    <i
+                        class="fas fa-ellipsis-v customicons position-absolute"></i>
                 </a>
 
                 <a href="http://instagram.com/konami_ai" target="_blank"
-                    class="link-btn pt-4 pb-3">
+                    class="link-btn text-white position-relative d-block text-center">
                     Instagram
+                    <i
+                        class="fas fa-ellipsis-v customicons position-absolute"></i>
                 </a>
 
                 <a href="http://twitter.com/konami_ai" target="_blank"
-                    class="link-btn pt-4 pb-3">
+                    class="link-btn text-white position-relative d-block text-center">
                     Twitter
+                    <i
+                        class="fas fa-ellipsis-v customicons position-absolute"></i>
                 </a>
             </div>
 
             <div class="text-center">
-                <a href="#" class="join-btn">
+                <a
+                    href="https://linktr.ee/?utm_source=linktree&utm_medium=profile&utm_campaign=footer_logo_cta&utm_content=Konami_Ai"
+                    class="join-btn position-relative d-flex justify-content-center align-items-center bg-white text-black">
                     <i class="fas fa-asterisk"></i>
                     <span class="ms-2">Join Konami_Ai on Linktree</span>
                 </a>
@@ -125,9 +149,9 @@
                     <div class="modal-body text-center">
                         <div class="d-flex justify-content-center mb-3">
                             <img
-                                src="https://ugc.production.linktr.ee/0LCftquCTiuH3l4hatFZ_ade4be54a27f38359fdf60c24d7182bfe?io=true&size=avatar-v3_0"
+                                src="https://assets.production.linktr.ee/profiles/_next/static/logo-assets/logo-heart-bw.gif"
                                 alt="Konami_Ai Profile Picture"
-                                style="width: 80px; height: 80px; border-radius: 50%;">
+                                style="width: 70px; height: 70px; border-radius: 50%;">
                         </div>
                         <h5 class="mb-3">Subscribe to Konami_Ai</h5>
                         <p class="text-muted mb-4">Stay up to date with
@@ -139,7 +163,7 @@
                         </div>
 
                         <button
-                            class="btn subscribe-btn w-100 py-2 mb-3">Subscribe</button>
+                            class="btn subscribe-btn bg-black w-100 py-2 mb-3 text-white">Subscribe</button>
 
                         <p class="small text-muted">
                             By subscribing, you agree to Linktree's T&Cs and
@@ -178,19 +202,24 @@
                         </div>
 
                         <div class="d-flex justify-content-center mb-4">
-                            <div class="share-option copy-link">
+                            <div
+                                class="share-option d-flex align-items-center justify-content-center copy-link">
                                 <i class="fas fa-link"></i>
                             </div>
-                            <div class="share-option twitter-share">
+                            <div
+                                class="share-option d-flex align-items-center justify-content-center twitter-share bg-black text-white">
                                 <i class="fab fa-twitter"></i>
                             </div>
-                            <div class="share-option facebook-share">
+                            <div
+                                class="share-option d-flex align-items-center justify-content-center facebook-share text-white">
                                 <i class="fab fa-facebook-f"></i>
                             </div>
-                            <div class="share-option whatsapp-share">
+                            <div
+                                class="share-option d-flex align-items-center justify-content-center whatsapp-share text-white">
                                 <i class="fab fa-whatsapp"></i>
                             </div>
-                            <div class="share-option linkedin-share">
+                            <div
+                                class="share-option d-flex align-items-center justify-content-center linkedin-share text-white">
                                 <i class="fab fa-linkedin-in"></i>
                             </div>
                         </div>
@@ -204,10 +233,10 @@
                                 people.</p>
                             <div class="d-flex justify-content-center">
                                 <button
-                                    class="btn btn-dark rounded-pill px-4 me-2">Sign
+                                    class="btn btn-dark rounded-pill px-md-4 px-lg-4 px-xl-4 px-xxl-4 px-2 me-1">Sign
                                     up free</button>
                                 <button
-                                    class="btn btn-outline-dark rounded-pill px-4">Find
+                                    class="btn btn-outline-dark rounded-pill px-md-4 px-lg-4 px-xl-4 px-xxl-4 px-2 ms-1">Find
                                     out more</button>
                             </div>
                         </div>
@@ -216,29 +245,39 @@
             </div>
         </div>
 
-        <div class="anti-racism-banner banner-collapsed" id="antiRacismBanner">
-            <div class="banner-header">
-                <span class="banner-title">Support Anti-Racism</span>
-                <button class="toggle-btn" id="toggleBtn">
-                    <i class="fas fa-chevron-up" id="toggleIcon"></i>
-                </button>
-            </div>
-
-            <div class="banner-content">
-                <div class="icon-container">
-                    <img
-                        src="https://assets.production.linktr.ee/profiles/_next/static/logo-assets/logo-heart-bw.gif"
-                        alt class="banner-icon">
+        <div
+            class="anti-racism-banner banner-collapsed bg-black position-fixed text-white w-100 text-center"
+            id="antiRacismBanner">
+            <div id="bannerkontenv2">
+                <div
+                    class="banner-header d-flex position-relative justify-content-center align-items-center">
+                    <span class="banner-title fw-bold" id="headerTitle1">Support
+                        Anti-Racism</span>
+                    <button class="toggle-btn position-absolute text-white p-0"
+                        id="toggleBtn">
+                        <i class="fas fa-chevron-up" id="toggleIcon"></i>
+                    </button>
                 </div>
 
-                <p class="banner-text" style="font-size: 14px;">
-                    I'm raising awareness, driving donations and<br>
-                    sharing information in support of racial justice<br>
-                    and equality. Will you join me?
+                <div class="banner-content">
+                    <div
+                        class="icon-container bg-white mt-0 pt-0 d-flex justify-content-center align-items-center">
+                        <img
+                            src="https://assets.production.linktr.ee/profiles/_next/static/logo-assets/logo-heart-bw.gif"
+                            alt class="banner-icon">
+                    </div>
+                    <span class="banner-title fw-bold" id="headerTitle2">Support
+                        Anti-Racism</span>
 
-                </p>
+                    <p class="banner-text pt-2" style="font-size: 14px;">
+                        I'm raising awareness, driving donations and<br>
+                        sharing information in support of racial justice<br>
+                        and equality. Will you join me?
+                    </p>
 
-                <button class="act-now-btn" id="actNowBtn">ACT NOW</button>
+                    <button class="act-now-btn text-black bg-white"
+                        id="actNowBtn">ACT NOW</button>
+                </div>
             </div>
         </div>
 
